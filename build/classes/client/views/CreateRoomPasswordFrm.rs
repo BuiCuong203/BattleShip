@@ -1,0 +1,3 @@
+views.CreateRoomPasswordFrm$2
+views.CreateRoomPasswordFrm$1
+views.CreateRoomPasswordFrm

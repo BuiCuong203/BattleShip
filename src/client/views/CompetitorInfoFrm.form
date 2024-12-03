@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="isFriendLabel" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="winRatioLabel" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rankLabel" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel6" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Component id="numberOfGameLabel" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="numberOfWinLabel" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                  <Component id="markLabel" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="numberOfDrawLabel" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                  <Component id="nicknameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="numberOfLoseLabel" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="numberOfWinValue" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="numberOfGameValue" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jButton1" alignment="0" min="-2" pref="99" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="rankValue" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="markValue" alignment="0" min="-2" pref="63" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="nicknameValue" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                                          <Component id="numberOfDrawValue" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="16" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="numberOfLoseValue" min="-2" pref="72" max="-2" attributes="0"/>
+                                          <Component id="winRatioValue" min="-2" pref="63" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel6" alignment="3" min="-2" pref="91" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" pref="91" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nicknameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nicknameValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="numberOfGameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numberOfGameValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="numberOfWinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numberOfWinValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="numberOfDrawLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numberOfDrawValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="numberOfLoseLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numberOfLoseValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="winRatioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="winRatioValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="markLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="markValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rankLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rankValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="isFriendLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="frameLabel" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="frameLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="frameLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Th&#xf4;ng tin &#x111;&#x1ed1;i th&#x1ee7;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nicknameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xea;n ng&#x1b0;&#x1edd;i ch&#x1a1;i"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nicknameValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{nickname}"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfGameValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{sovachoi}"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfGameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#x1ed1; v&#xe1;n ch&#x1a1;i"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfWinLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#x1ed1; v&#xe1;n th&#x1eaf;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfWinValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{sovanthang}"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfDrawLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#x1ed1; v&#xe1;n h&#xf2;a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfDrawValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{sovanhoa}"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="winRatioLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#x1ec9; l&#x1ec7; th&#x1eaf;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="winRatioValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{tillethang}"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="markLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;i&#x1ec3;m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="markValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{diem}"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rankLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#x1ee9; h&#x1ea1;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rankValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{thuhang}"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="isFriendLabel">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="C&#xe1;c b&#x1ea1;n hi&#x1ec7;n &#x111;ang l&#xe0; b&#x1ea1;n b&#xe8;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfLoseLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#x1ed1; v&#xe1;n thua"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfLoseValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{sovanthua}"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,2 @@
+views.CompetitorInfoFrm
+views.CompetitorInfoFrm$1
