@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package client.views;
 
-/**
- *
- * @author bhhoa
- */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -153,7 +145,6 @@ public class BoardView extends JPanel implements PropertyChangeListener {
             selectedShipView.resetPosition();
         }
         updateRotateButtonState();
-//        this.model.printBoard(true);
     }
 
     private void updateRotateButtonState() {

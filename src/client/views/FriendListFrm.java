@@ -1,4 +1,3 @@
-
 package client.views;
 
 import client.controller.Client;
