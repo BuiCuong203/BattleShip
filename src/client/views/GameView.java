@@ -31,10 +31,6 @@ import client.controller.GameHandler;
 import static client.util.Constants.Configs.PLACEMENT_TIMEOUT;
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author bhhoa
- */
 public class GameView extends JFrame {
 
     private JTextField inputField = new JTextField();
@@ -51,7 +47,6 @@ public class GameView extends JFrame {
     public GameView(ObjectOutputStream out, final ObjectInputStream in, final SocketHandle socketHandle) {
         chat.setModel(chatModel);
 
-        this.setIconImage(new ImageIcon("assets/images/SpaceShip.png").getImage());
         JPanel rootPanel = new JPanel(new BorderLayout(5, 5));
         rootPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 

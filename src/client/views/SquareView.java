@@ -35,8 +35,8 @@ public class SquareView implements ChangeListener {
         this.squareModel = squareModel;
         squareModel.addChangeListener(this);
         try {
-            water = ImageIO.read(new File("assets/images/Tile_Blue.png"));
-            splash = ImageIO.read(new File("assets/images/Tile_Red.png"));
+            water = ImageIO.read(new File("assets/images/water/water.png"));
+            splash = ImageIO.read(new File("assets/images/water/splash.png"));
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,
                     "Some files have been deleted.", "Fatal error",
